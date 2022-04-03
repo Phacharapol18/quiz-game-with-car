@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id = "Quiz">Car Quiz</h1>
+        <button id="start">Start</button>
+   </header>
+   <main>
+       <div id="questionSec">
+           <h2 id="question"></h2>
+            <div id="btn">
+               <button class = "lista" id="answer1"></button>
+               <button class = "lista" id="answer2"></button>
+               <button class = "lista" id="answer3"></button>
+               <button class = "lista" id="answer4"></button>
+               
+            </div>
+       </div>
+       <button class = "next">Next</button>
+       <h4>Time Left: <span id="time">15</span></h4>
+       <div id="scores">
+           <ul id="list-name">
+           </ul>
+       </div>
+       <div id="name-input">
+           <form>
+               <input type="text" name="name" placeholder="Your name">
+               <button type="submit">submit</button>
+           </form>
+       </div>
+   </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

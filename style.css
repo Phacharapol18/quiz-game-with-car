@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h4{
+    margin: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+.next {
+display: block;
+
+}
+.lista {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px auto;
+    background-color: chocolate;
+    text-align: center;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 100px;
+    display: block;
+}
+.lista:hover {
+    background-color:burlywood;
+    cursor: pointer;
+}
+#questionSec, #questionSec h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px 0;
+}
+#questionSec {
+    font-size: 10rem;
+}
+#start {
+    padding: 10px 8%;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#questionSec {
+    background-color: aquamarine;
+    width: 60%;
+    margin: 10px auto;
+    height: 50vh;
+
+    
+}
+
+
